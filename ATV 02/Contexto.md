@@ -1,18 +1,19 @@
-Você trabalha como um administrador de banco de dados em uma empresa de recursos humanos. A empresa precisa armazenar informações sobre novos funcionários em seu banco de dados. Sua tarefa é criar uma instrução SQL INSERT para inserir os detalhes de um novo funcionário em uma tabela de funcionários.
+Mão na massa: inserindo outros clientes da Hermex Import
 
-A tabela de funcionários possui os seguintes campos:
+Durante o vídeo a instrutora (Beatriz) adicionou três novos clientes na tabela de clientes utilizando o comando INSERT através do seguinte código:
 
-ID (Chave Primária)
-Nome (Texto)
-Cargo (Texto)
-Departamento (Texto)
-Data de Contratação (Data)
-Salário (Decimal)
-Escreva uma instrução SQL INSERT para adicionar um novo funcionário à tabela. Use os seguintes dados de exemplo:
+INSERT INTO tabelaclientes
+(id_cliente,
+ nome_cliente,
+ informacoes_de_contato,
+ Endereço_Cliente)
+ VALUES
+ ('2', 'João Santos', 'joao.santos@provedor.com', 'Rua dos pinheiros, 25'),
+ ('3', 'Maria Fernandes', 'maria.fernandes@email.com', 'Rua Santo Antonio, 10'),
+ ('4','Carlos Pereira', 'carlos.pereira@email.com', 'Avenida rio, 67');
+COPIAR CÓDIGO
+Além dos clientes adicionados durante o vídeo, a Hermex Import (nossa empresa fictícia) possui uma lista de clientes a serem adicionados nessa tabela, também iremos carregar as informações dos produtos na tabela de produtos, que criamos anteriormente.
 
-ID: 32D
-Nome: João Silva
-Cargo: Desenvolvedor de Software
-Departamento: TI
-Data de Contratação: 2023-10-24
-Salário: 6000.00
+Então agora é com você!
+
+Insira os dados tanto na tabela de clientes quanto na tabela de produtos utilizando o comando INSERT que já aprendemos e executamos juntos em aula.
