@@ -1,4 +1,4 @@
-Mão na massa: registro de novos funcionários
+Mão na massa: registro de novos funcionários   
 Você trabalha como um administrador de banco de dados em uma empresa de recursos humanos. A empresa precisa armazenar informações sobre novos funcionários em seu banco de dados. Sua tarefa é criar uma instrução SQL INSERT para inserir os detalhes de um novo funcionário em uma tabela de funcionários.
 
 A tabela de funcionários possui os seguintes campos:
